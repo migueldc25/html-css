@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauta</title>
     <style>
-        body {
-            height: 97vh;
-            background-image: url(imagens/espaco.jpg);
-            background-size: cover;
+        * {
+            padding: 0px;
+            margin: 0px;
         }
         #container {
-            position: fixed;
-            background-color: purple;
-
+            height: 100vh;
+            background-image: url(imagens/espaco.jpg);
+            background-size: 100% 100%;
+            position: relative;
         }
         #conteudo {
             position: absolute;
             left: 50%;
             top: 50%;
-            background-color: yellow;
+            transform: translate(-275px, -275px);
+
         }
     </style>
 </head>
